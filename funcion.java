@@ -10,6 +10,15 @@ public class funcion {
 		System.out.println(z);
 		return z;
 	}
-	
+	public static void par_o_no(int z) {
+		
+		if(z%2==0) {
+			System.out.println("ES PAR EL NUMERO INTRODUCIDO");
+		}else {
+			System.out.println("No es par el numero introducido");
+		}
+		
+		
+	}
 
 }
